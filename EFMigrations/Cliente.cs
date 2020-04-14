@@ -14,6 +14,5 @@ namespace EFMigrations
         public string Nome { get; set; }
         public string TelefoneContato { get; set; }
         public string Email { get; set; }
-        public string CPF { get; set; }
     }
 }

@@ -12,12 +12,7 @@ namespace EFMigrations
         {
             LojaContext db = new LojaContext();
 
-            db.Produtos.Add(new Produto
-            {
-                Nome = "Smartphone",
-                Preco = 2000,
-                DataCadastro = DateTime.Today
-            });
+            db.Clientes.ToList().ForEach(c => Console.WriteLine(c.Nome));
 
             db.SaveChanges();
         }
