@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrations", "EFMigrations\EFMigrations.csproj", "{4901F472-6635-48AF-B97F-8BFA3F42A37B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4901F472-6635-48AF-B97F-8BFA3F42A37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4901F472-6635-48AF-B97F-8BFA3F42A37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4901F472-6635-48AF-B97F-8BFA3F42A37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4901F472-6635-48AF-B97F-8BFA3F42A37B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641C541F-4E87-41F7-A1B2-FE1E262F5D61}
+	EndGlobalSection
+EndGlobal
