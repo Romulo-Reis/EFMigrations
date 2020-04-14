@@ -17,5 +17,7 @@ namespace EFMigrations
         public string Nome { get; set; }
         [Required]
         public decimal Preco { get; set; }
+        [Required]
+        public DateTime DataCadastro { get; set; }
     }
 }

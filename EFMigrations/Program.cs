@@ -11,14 +11,14 @@ namespace EFMigrations
         static void Main(string[] args)
         {
             LojaContext db = new LojaContext();
-            Cliente cliente = new Cliente
+
+            db.Produtos.Add(new Produto
             {
-                Nome = "Maria",
-                CPF = "111122233344",
-                TelefoneContato = "77776666",
-                Email = "maria@email.com.br"
-            };
-            db.Clientes.Add(cliente);
+                Nome = "Smartphone",
+                Preco = 2000,
+                DataCadastro = DateTime.Today
+            });
+
             db.SaveChanges();
         }
     }
